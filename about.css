@@ -47,29 +47,44 @@ table {
 	border-spacing: 0;
 }
 
-.header  {
-    height: 12.5vh;
-    width: 100%;
+/* HEADER/NAV SECTION*/
+header{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    border-bottom: 2px solid #8D775F;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 3px solid #8D775F;
+    background-color: #D5BF86;
+
 }
 
-.header nav {
+.logo {
+    width: 10%;
+}
+
+header nav {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 2% auto;
+    font-size: 2rem;
+    width: 80%;
+    font-family: 'Offside', cursive;
 }
 
-.header nav a {
-    display: flex;
-    justify-content: space-between;
-    width: 20%;
-    margin: 0 auto;
+header nav a{
+    padding: 1%;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: #3F0D12;
 }
+
+header nav a:hover{
+    border-bottom: 3px solid #f1f0cc;
+    
+}
+
+/* MAIN ABOUT SECTION*/
 
 .main-body  {
     width: 100%;
@@ -85,6 +100,40 @@ table {
     justify-content: center;
     align-items: center;
 }
+
+.about-us, .why-us  {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+}
+
+.about-img  {
+    width: 40%;
+    margin: auto;
+}
+
+.about-img img  {
+    width: 100%;
+}
+
+.about-text h1, .about-text h2  {
+    font-size: 2rem;
+    margin: 2.5% auto;
+    font-family: 'Offside', cursive; 
+    color: #3F0D12;
+    border-top: solid 2px #3F0D12;
+    border-bottom: solid 2px #3F0D12;
+    line-height: 1.5;
+}
+
+.about-text p  {
+    font-size: 1rem;
+    margin: 2.5% auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CONTACT SECTION*/
 
 .contact  {
     width: 90%;
@@ -143,28 +192,12 @@ table {
 }
 
 
-
-.about-us, .why-us  {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin: 2% auto;
-}
-
-.about-img  {
-    width: 40%;
-    margin: auto;
-}
-
 .contact img  {
     width: 40%;
     margin: 2% auto;
 }
 
-
-.about-img img  {
-    width: 100%;
-}
+/* FOOTER SECTION*/
 
 .footer  {
     display: flex;
@@ -219,22 +252,6 @@ table {
 
 .social-links nav img:hover {
     opacity: 80%;
-}
-
-h1, h2  {
-    font-size: 2rem;
-    margin: 2.5% auto;
-    font-family: 'Offside', cursive; 
-    color: #3F0D12;
-    border-top: solid 2px #3F0D12;
-    border-bottom: solid 2px #3F0D12;
-    line-height: 1.5;
-}
-
-p  {
-    font-size: 1rem;
-    margin: 2.5% auto;
-    font-family: 'Open Sans', sans-serif;
 }
 
 @media(max-width: 1024px){
