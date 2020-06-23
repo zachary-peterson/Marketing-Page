@@ -255,31 +255,33 @@ header nav a:hover{
 }
 
 @media(max-width: 1024px){
-        /* HEADER/NAV SECTION */
-        header {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        }
+    /* HEADER/NAV SECTION */
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
     
-        .logo {
-            width: 50%;
-        }
+    .logo {
+        width: 50%;
+    }
     
-        header nav {
-            display: flex;
-            justify-content: center;
-            width: 90%;
-            margin-bottom: 2%;
-        }
+    header nav {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 2%;
+    }
     
-        header nav a {
-            width: 20%; 
-            border-bottom: 3px solid #f1f0cc;
-            margin: 0 3%
-        }
+    header nav a {
+        width: 20%; 
+        border-bottom: 3px solid #f1f0cc;
+        margin: 0 3%
+    }
+
+    /* FOOTER MAIN & SOCIAL NAV SECTION */
 
     .footer {
         display: flex;
@@ -321,6 +323,9 @@ header nav a:hover{
         width: 60%;
     }
 
+    /* CONTACT AND ABOUT PAGE SECTION */
+
+
     .main-body  {
         flex-direction: column;
         justify-content: center;
@@ -353,6 +358,9 @@ header nav a:hover{
 }
 
 @media(max-width: 768px){
+    
+    /* FOOTER NAV SECTION */
+    
     .button {
         width: 80%;
     }
