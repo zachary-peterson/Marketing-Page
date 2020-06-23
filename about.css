@@ -337,6 +337,10 @@ header nav a:hover{
         flex-direction: column;
     }
 
+    .about-img img  {
+        width: 100%;
+    }
+
     .contact-text  {
         text-align: center;
         width: 100%;
